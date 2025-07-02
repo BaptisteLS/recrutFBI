@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Question 9</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #hint1, #hint2, #revealAnswer {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #hint1:hover, #hint2:hover, #revealAnswer:hover {
+            background-color: #002244;
+        }
+        .hints {
+            margin-top: 40px; /* Ajoute de l'espace au-dessus des indices */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Question 9</h1>
+        <p>Nom de l'organisation</p>
+        <input type="text" id="answer" placeholder="Entrer la réponse">
+        <button id="validate">Valider</button>
+        <div id="response"></div>
+
+        <button id="nextPage" style="display:none;">Question suivante</button>
+        
+        <div class="hints">
+            <button id="hint1">Indice 1</button>
+            <button id="hint2">Indice 2</button>
+            <button id="revealAnswer">Réponse</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
